@@ -33,7 +33,7 @@ metadata:
     app: wordpress
 spec:
   serviceName: "wordpress-mysql"
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: wordpress
